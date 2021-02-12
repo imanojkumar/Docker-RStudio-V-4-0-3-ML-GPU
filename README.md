@@ -5,4 +5,5 @@
 
 ### Procedure
 `docker login` -  to authenticate
+
 `docker build -t LOGIN_NAME/IMAGE_NAME .`  - to build the image using LOGIN_NAME/IMAGE_NAME e.g. imanojkumar/docker-r-rstudio-ml-gpu
