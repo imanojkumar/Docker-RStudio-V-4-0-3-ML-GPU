@@ -16,9 +16,12 @@ Please note that `-rm` is used to remove the container object after usage. This 
 ## Then launch the application at (in the browser, type following and hit enter key):
 `localhost:8787`
 
-# How to stop container
+## How to stop container
 `control+C` to stop
 then
 `docker container ls` to check the container ID of last running docker
 then
 `docker stop <CONTAINER ID>`
+
+## If you wish to attach a local folder (e.g. one on desktop on windows), you could do it so:
+`docker run --rm -p 8787:8787 -e USER=guest -e PASSWORD=guest -v C:/Users/imano/Desktop/R_Data:/home/guest/r-studio imanojkumar/docker-r-rstudio-ml-gpu`
