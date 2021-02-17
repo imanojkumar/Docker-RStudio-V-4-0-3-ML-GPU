@@ -11,5 +11,7 @@
 ## First time run ?? Please use the below command otherwise you will get an error
 `docker run --rm -p 8787:8787 -e USER=guest -e PASSWORD=guest imanojkumar/docker-r-rstudio-ml-gpu`
 
+Please note that `-rm` is used to remove the container object after usage. This is optional to use. 
+
 ## Then launch the application at (in the browser, type following and hit enter key):
 `localhost:8787`
