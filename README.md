@@ -15,3 +15,10 @@ Please note that `-rm` is used to remove the container object after usage. This 
 
 ## Then launch the application at (in the browser, type following and hit enter key):
 `localhost:8787`
+
+# How to stop container
+`control+C` to stop
+then
+`docker container ls` to check the container ID of last running docker
+then
+`docker stop <CONTAINER ID>`
