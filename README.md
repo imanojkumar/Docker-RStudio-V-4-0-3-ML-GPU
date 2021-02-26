@@ -1,5 +1,5 @@
 # Docker-R-RStudio-ML-GPU
- R and R Studio with GPU Support in a Container
+ Linux based R (version 4.0.3) and R Studio (latest version) for Machine and Deep Learning with GPU Support in a Container
  
 ![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/imanojkumar/docker-r-rstudio-ml-gpu)
  
