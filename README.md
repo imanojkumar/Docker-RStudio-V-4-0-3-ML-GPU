@@ -1,7 +1,7 @@
 # Docker-R-RStudio-ML-GPU
  R and R Studio with GPU Support in a Container
  
-![Docker Automated build](https://img.shields.io/docker/automated/imanojkumar/docker-r-rstudio-ml-gpu)
+![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/imanojkumar/docker-r-rstudio-ml-gpu)
  
 ## Instructions to build the docker image
 
